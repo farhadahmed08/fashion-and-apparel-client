@@ -1,0 +1,44 @@
+[
+    {   "id": 1,
+        "brand": "Nike",
+        "image": "https://i.ibb.co/Dg6W2mR/wu-yi-z-Y3z-IOd-KXL4-unsplash.jpg",
+        "description": "Brand Nike is a well-known brand that specializes in premium clothing and accessories."
+      
+    },
+    {
+        "id": 2,
+        "brand": "Adidas",
+        "image": "https://i.ibb.co/n1kXhs1/henry-co-NTQtey-FDe-QY-unsplash.jpg",
+        "description": "Brand Adidas is a leading technology company that creates cutting-edge gadgets and devices."
+      
+    },
+    {
+        "id": 3,
+        "brand": "Gucci",
+        "image": "https://i.ibb.co/jMDmCsg/long-phan-th-Tnny-B4oks-unsplash.jpg",
+        "description": "Brand Gucci is a popular automotive company known for its eco-friendly vehicles."
+      
+    },
+    {
+        "id": 4,
+        "brand": "Zara",
+        "image": "https://i.ibb.co/0y8vSYf/abbat-AV2-Isc-So-Afc-unsplash.jpg",
+        "description": "Brand Zara specializes in gourmet food products from around the world."
+      
+    },
+    {
+        "id": 5,
+        "brand": "H&M",
+        "image": "https://i.ibb.co/ZS7GGsn/sei-h-A-Znk-S2-Nwc-unsplash.jpg",
+        "description": "Brand H&M is a renowned travel company offering luxury travel experiences."
+      
+    },
+    {
+        "id": 6,
+        "brand": " Levi's",
+        "image": "https://i.ibb.co/xHWtRww/austin-burke-X83wa-YNJQp-E-unsplash.jpg",
+        "description": "Brand  Levi's is a fitness brand that promotes a healthy lifestyle through its products and services."
+      
+    }
+  ]
+  
