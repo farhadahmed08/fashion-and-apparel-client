@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 
 
 const FashionItemCard = ({card}) => {
 
-    const {brand,image,description} =card;
+    const {id,brand,image,description} =card;
 
     return (
         <div className="mb-10">
@@ -11,9 +12,9 @@ const FashionItemCard = ({card}) => {
   <div className="card-body">
     <h2 className="card-title">{brand}</h2>
     <p>{description}</p>
-    <div className="card-actions justify-end">
+   <Link to={`/fashionItem/${id}`}> <div className="card-actions justify-end">
       <button className="btn btn-primary">Watch</button>
-    </div>
+    </div></Link>
   </div>
 </div>
         </div>

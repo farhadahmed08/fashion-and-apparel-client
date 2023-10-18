@@ -7,6 +7,7 @@ import Login from "../login/Login";
 import AddProduct from "../addProduct/AddProduct";
 import MyCart from "../myCart/MyCart";
 import UpdateProduct from "../updateProduct/UpdateProduct";
+import PrivateRoutes from "./PrivateRoutes";
 
 
 
@@ -20,8 +21,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home/>,
         loader:()=>fetch('/data.json')
-        
-      },
+        },
+      {
+        path: "/fashionItem/:id",
+        element: <Home/>,
+        },
       
       {
         path: "/register",
@@ -33,15 +37,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/addProduct",
-        element: <AddProduct/>,
+        element: <PrivateRoutes><AddProduct/></PrivateRoutes>,
       },
       {
         path: "/updateProduct",
-        element: <UpdateProduct/>,
+        element: <PrivateRoutes><UpdateProduct/></PrivateRoutes>,
       },
       {
         path: "/myCart",
-        element: <MyCart/>,
+        element: <PrivateRoutes><MyCart/></PrivateRoutes>,
       },
      
       
