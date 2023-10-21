@@ -39,7 +39,7 @@ const AddProduct = () => {
   };
 
   return (
-    <div className="bg-[#F4F3F0] p-24">
+    <div className="bg-blue-200 p-24">
       <h2 className="text-3xl font-extrabold">Add a Product</h2>
       <form onSubmit={handleAddProduct}>
         <div className="md:flex mb-8">

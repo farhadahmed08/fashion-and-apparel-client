@@ -3,7 +3,20 @@ import { Link } from "react-router-dom";
 
 const FashionItemCard = ({card}) => {
 
+
+
     const {id,brand,image,description} =card;
+    console.log(id);
+
+
+
+    // const handleFilter = (brand)=>{
+    //   console.log(brand)
+    // }
+
+
+
+
 
     return (
         <div className="mb-10">

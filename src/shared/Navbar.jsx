@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../pages/providers/AuthProvider";
 import { Link, NavLink } from "react-router-dom";
+import logo from '../assets/fashion-logo-design-template.jpg'
 
 
 const Navbar = () => {
@@ -31,6 +32,9 @@ const Navbar = () => {
               <li>
             <NavLink to="/updateProduct">Update Product</NavLink>
           </li>
+              <li>
+            <NavLink to="/productDetails">Product Details</NavLink>
+          </li>
             </>
           )}
         </>
@@ -38,8 +42,10 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-blue-100">
+        <div className="navbar bg-blue-400">
+         <div className="w-20 rounded-full"> <img src={logo} alt="" /></div>
         <div className="navbar-start">
+          
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg

@@ -8,6 +8,10 @@ import AddProduct from "../addProduct/AddProduct";
 import MyCart from "../myCart/MyCart";
 import UpdateProduct from "../updateProduct/UpdateProduct";
 import PrivateRoutes from "./PrivateRoutes";
+import BrandCard from "../brandcard/BrandCard";
+import ProductDetails from "../productdetails/ProductDetails";
+
+
 
 
 
@@ -24,7 +28,8 @@ const router = createBrowserRouter([
         },
       {
         path: "/fashionItem/:id",
-        element: <Home/>,
+        element: <BrandCard/>,
+        loader:()=>('http://localhost:5000/products')
         },
       
       {
@@ -38,6 +43,11 @@ const router = createBrowserRouter([
       {
         path: "/addProduct",
         element: <PrivateRoutes><AddProduct/></PrivateRoutes>,
+      },
+      {
+        path: "/productDetails",
+        element: <PrivateRoutes><ProductDetails/></PrivateRoutes>,
+       
       },
       {
         path: "/updateProduct",
