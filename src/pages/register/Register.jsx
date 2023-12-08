@@ -44,7 +44,7 @@ const Register = () => {
         //new user has been created;
         const createdAt = result.user?.metadata?.creationTime;
         const user = {email,createAt:createdAt};
-        fetch('http://localhost:5000/users',{
+        fetch('https://fashion-and-apparel-server-mu.vercel.app/users',{
           method: "POST",
           headers: {
             "content-type": "application/json",

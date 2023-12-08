@@ -16,7 +16,7 @@ const AddProduct = () => {
     const newProduct = { name, brand, type, price, description, rating, image };
     console.log(newProduct);
     // send data to the server
-    fetch("http://localhost:5000/products", {
+    fetch("https://fashion-and-apparel-server-mu.vercel.app/products", {
       method: "POST",
       headers: {
         "content-type": "application/json",

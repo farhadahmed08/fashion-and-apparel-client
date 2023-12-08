@@ -1,25 +1,32 @@
 import { useLoaderData } from "react-router-dom";
+import BrandTitle from "../../components/BrandTitle";
 import Banner from "../../components/Banner";
-import FashionItemCard from "../../components/FashionItemCard";
+
+
 
 
 const Home = () => {
 
-    const fashionItems = useLoaderData();
-    console.log(fashionItems)
+    const BrandNames = useLoaderData();
+    console.log(BrandNames)
+
 
 
     return (
-        <div className="space-y-14">
-            <Banner/>
-            <h1 className="text-6xl text-center font-bold text-blue-600">Fashion Item</h1>
-            <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-3">
-                {
-                    fashionItems?.map(fashionItem=><FashionItemCard key={fashionItem.id} card={fashionItem}></FashionItemCard>)
-                }
-            </div>
-        </div>
+      <div className="space-y-8">
+        <Banner/>
+          <div className="grid grid-cols-2 gap-5">
+           
+           {
+               BrandNames?.map(brandName=><BrandTitle key={brandName.id} brandName={brandName}></BrandTitle>)
+           }
+       </div>
+      </div>
     );
 };
 
 export default Home;
+
+
+
+

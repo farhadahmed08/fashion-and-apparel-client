@@ -1,6 +1,6 @@
 [
     {   "id": 1,
-        "brand": "Nike",
+        "brand": "NIKE",
         "image": "https://i.ibb.co/Dg6W2mR/wu-yi-z-Y3z-IOd-KXL4-unsplash.jpg",
         "description": "Brand Nike is a well-known brand that specializes in premium clothing and accessories."
       
@@ -14,14 +14,14 @@
     },
     {
         "id": 3,
-        "brand": "Gucci",
+        "brand": "GUCCI",
         "image": "https://i.ibb.co/jMDmCsg/long-phan-th-Tnny-B4oks-unsplash.jpg",
         "description": "Brand Gucci is a popular automotive company known for its eco-friendly vehicles."
       
     },
     {
         "id": 4,
-        "brand": "Zara",
+        "brand": "ZARA",
         "image": "https://i.ibb.co/0y8vSYf/abbat-AV2-Isc-So-Afc-unsplash.jpg",
         "description": "Brand Zara specializes in gourmet food products from around the world."
       
@@ -35,7 +35,7 @@
     },
     {
         "id": 6,
-        "brand": " Levi's",
+        "brand": "Levis",
         "image": "https://i.ibb.co/xHWtRww/austin-burke-X83wa-YNJQp-E-unsplash.jpg",
         "description": "Brand  Levi's is a fitness brand that promotes a healthy lifestyle through its products and services."
       
